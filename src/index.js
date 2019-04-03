@@ -1,16 +1,7 @@
-// const element = document.createElement('h1');
-// element.innerText = 'Hello, Platzi Badges!';
+import React from "react";
+import ReactDom from "react-dom";
+import Badge from "./Components/Badge";
 
-// const container = document.getElementById('app');
+const container = document.getElementById("app");
 
-// container.appendChild(element);
-
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-const element = <h1>Hello, Platzi Badges!</h1>;
-
-const container = document.getElementById('app');
-
-// ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(element, container);
+ReactDom.render(<Badge />, container);
