@@ -4,14 +4,7 @@ import './Styles/Badge.css';
 
 class Badge extends Component {
   render() {
-    const {
-      avatar,
-      firstName,
-      lastName,
-      jobTitle,
-      twitter,
-      email,
-    } = this.props;
+    const { avatar, firstName, lastName, jobTitle, twitter } = this.props;
 
     return (
       <div className="Badge">
